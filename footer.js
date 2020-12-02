@@ -340,7 +340,7 @@
     var footerElt = '.footer-container > div:nth-child(1) > div:nth-child(2) >';
 
     //L'OUTIL MARKETING ULTIME POUR L'IMMOBILIER
-    document.querySelector(footerElt +'div:nth-child(1) > h2').innerHTML = footerLangs[lg]['marketing_label'].name;
+    document.querySelector(footerElt + '.footer-order-block > img > h2').innerHTML = footerLangs[lg]['marketing_label'].name;
     
     //JE SUIS CONVAINCU
     document.querySelector(footerElt + 'div:nth-child(1) > a:nth-child(1)').innerHTML = footerLangs[lg]['marketing_button'].name;
